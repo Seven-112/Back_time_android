@@ -1,0 +1,12 @@
+Ingrese los minutos
+AGREGAR TIEMPO
+COMENZAR TIEMPO
+LIMPIAR PANTALLA
+
+ContadorService
+Debe Insertar los minutos
+El tiempo no puede ser Cero
+
+DETENER TIEMPO
+COMENZAR TIEMPO
+Tiempo Finalizado.

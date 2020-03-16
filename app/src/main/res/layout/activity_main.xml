@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="400dp">
+       <EditText
+           android:textAlignment="center"
+           android:id="@+id/edit_text_input"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:hint="Enter the minutes"
+           android:inputType="number"
+           android:maxLength="4"/>
+
+       <Button
+           android:id="@+id/button_set"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="ADD TIME" />
+       <TextView
+           android:id="@+id/text_view_countdown"
+           android:gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="00:00"
+           android:textColor="@android:color/black"
+           android:textSize="60sp" />
+   </LinearLayout>
+
+   <LinearLayout
+       android:gravity="center"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <Button
+           android:id="@+id/button_start_pause"
+           android:layout_width="200dp"
+           android:layout_height="wrap_content"
+           android:text="START TIME" />
+       <Button
+           android:id="@+id/button_reset"
+           android:layout_width="200dp"
+           android:layout_height="wrap_content"
+           android:text="CLEAN SCREEN"
+           android:visibility="invisible"
+           tools:visibility="visible" />
+   </LinearLayout>
+
+
+</LinearLayout>
